@@ -7,7 +7,7 @@ Setting up ruby and rails on windows can be a real pain. Unfortunately I have ha
 
 Some of these steps listed may be completely unnecessary, but this is the process I went through and both my laptop and pc work using Ruby, Rails, and PSQL.
 
-Throughout this process I was getting tons of DPKG errors, after many hours of trying to fix them I just ignored them and everything ended up working anyway.
+Throughout this process I was getting tons of DPKG errors, after many hours of trying to fix them I just ignored them and everything ended up working anyway. Whenever you run into errors, try and see if you can narrow them down, but ultimately if you can't fully get rid of them, try ignoring them.
 
 If you are still having any problems feel free to reach out to me and I can do my best to help.
 
