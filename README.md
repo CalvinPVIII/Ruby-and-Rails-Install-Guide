@@ -103,9 +103,21 @@ ALTER USER (username) WITH SUPERUSER;
 The (username) should be whatever you inputted when initially installing the WSL ubuntu terminal.
 
 And with all that, you should be good to go. If you type psql in console it should connect you to the database with your username, and rails should be able to create and migrate the database using psql.
+## Switching Ruby Version
+To switch your Ruby version run the following commands
+<pre><code>rvm install (ruby version)
+rvm use (ruby version)
+</code></pre>
+
+## Switching Rails Version
+To switch your Rails version, run the following commans
+<pre><code>gem uninstall rails -a
+gem uninstall railties -a
+gem install rails -v (rails version)
+</code></pre>
+
 
 ## Closing
 
 Hopefully this helps everybody out as this was a very tedious process and I'm almost certain that you will get errors that I didn't. But in the end this is what I did to get ruby, rails, and psql working on two different machines running Windows 10. If you run into any problems I have no problem helping out.
 
-In the end it's probably just easier to get a mac.
